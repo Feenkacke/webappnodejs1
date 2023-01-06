@@ -7,6 +7,7 @@ module.exports = {
     hot: true,
     open: true,
     static: ['./'],
+    allowedHosts: [.azurewebsites.net],
   },
   plugins: [
     new HtmlWebpackPlugin({
